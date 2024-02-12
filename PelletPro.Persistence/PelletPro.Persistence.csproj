@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="IoC\" />
+    <Folder Include="Configuration\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PelletPro.Domain\PelletPro.Domain.csproj" />
+    <ProjectReference Include="..\PelletPro.SharedKernel\PelletPro.Abstraction.csproj" />
+    <ProjectReference Include="..\PelletPro\PelletPro.API.csproj" />
+  </ItemGroup>
+
+</Project>
